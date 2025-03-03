@@ -1,0 +1,42 @@
+{
+  "name": "sugit",
+  "version": "0.0.1",
+  "description": "Switch git user quickly",
+  "main": "./bin/index.js",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "bin": {
+    "git-user": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix ./src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qiutian00/sugit"
+  },
+  "keywords": [
+    "git",
+    "git-user",
+    "user"
+  ],
+  "author": "qiutian00",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^5.0.0",
+    "conf": "^7.1.2",
+    "execa": "^4.1.0",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^2.0.4"
+  }
+}
