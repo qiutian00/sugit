@@ -1,8 +1,8 @@
-# Git User Switch
+# sugit
 
 Switch git user, email and signingKey at ease.
 
-<img src="https://thumbs.gfycat.com/OfficialLiveImago-size_restricted.gif">
+[![npm](https://img.shields.io/npm/v/sugit.svg)](https://npmjs.com/package/sugit) [![](https://img.shields.io/npm/dt/sugit?style=flat&label=downloads&color=3b9648&labelColor=484848&logo=npm)](https://www.npmjs.com/package/sugit)
 
 
 ### Install
