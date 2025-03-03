@@ -14,7 +14,7 @@ npm i -g sugit
 ### Usage
 
 ```
-Usage: git-user [options]
+Usage: sug [options]
 
 Switch git users quickly. Switches locally by default
 
@@ -44,5 +44,5 @@ Just edit:
 You can additionally reset the cli data store by running:
 
 ```sh
-git-user -r
+sug -r
 ```
